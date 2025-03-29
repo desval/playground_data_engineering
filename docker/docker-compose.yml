@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  data-engineering:
+    image: data-engineering
+    build:
+      context: .
+      dockerfile: ./Dockerfile
